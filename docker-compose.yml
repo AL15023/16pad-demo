@@ -1,0 +1,15 @@
+version: "3"
+services:
+  node:
+    image: "node:slim"
+    # user: "node"
+    container_name: node-react
+    working_dir: /app
+    volumes:
+      - .:/app
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    tty: true
+
