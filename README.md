@@ -1,4 +1,4 @@
 # 16pad demo
 
-https://hiroshi-krashiki.github.io/16pad-demo/ ?
+https://AL15023.github.io/16pad-demo/ ?
 
