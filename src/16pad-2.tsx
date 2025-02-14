@@ -73,8 +73,10 @@ const PadGrid: React.FC = () => {
 // 全体をラップするフレーム
 const App = () => (
   <>
-    Click to Play Sound.
-    Right click to set sound file.
+    <div className="flex items-center justify-center">
+      Click to Play Sound.
+      Right click to set sound file.
+    </div>
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <PadGrid />
     </div>
