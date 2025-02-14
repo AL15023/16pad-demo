@@ -13,7 +13,7 @@ const Pad: React.FC<PadProps> = ({num}) => {
 
   // パッドに内蔵された音色を保存/更新するための状態
   // 初期状態はアセットの音源を読み込む
-  const [soundFile, setSoundFile] = useState(`/assets/${num}.wav`);
+  const [soundFile, setSoundFile] = useState(`${import.meta.env.BASE_URL}assets/${num}.wav`);
 
   //! 左クリックで音を鳴らすイベントハンドラー
   const handlePadClick = () => {
